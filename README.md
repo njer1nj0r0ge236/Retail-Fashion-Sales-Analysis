@@ -8,27 +8,27 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 
 ## 🎯 Objectives
 
-✔️ Understand overall business performance
-✔️ Identify top-performing products, regions, and customers
-✔️ Analyze profitability vs revenue
-✔️ Investigate return patterns and risks
-✔️ Detect seasonal trends for forecasting
+- ✔️ Understand overall business performance
+- ✔️ Identify top-performing products, regions, and customers
+- ✔️ Analyze profitability vs revenue
+- ✔️ Investigate return patterns and risks
+- ✔️ Detect seasonal trends for forecasting
 
 ## 🛠️ Tools & Technologies
-Tool	Purpose
-🗄️ SQL Server (SSMS)	Data cleaning & analysis
-📊 Power BI	Dashboard & visualization
-📑 Excel	Initial preprocessing
-🗂️ Dataset & Data Model
+- Tool	Purpose
+- 🗄️ SQL Server (SSMS)	Data cleaning & analysis
+- 📊 Power BI	Dashboard & visualization
+- 📑 Excel	Initial preprocessing
+- 🗂️ Dataset & Data Model
 
 ### This project uses a relational database structure:
 
-👤 Customers → demographics
-🛍️ Products → pricing & attributes
-💳 Sales → transactions
-🏬 Stores → location data
+- 👤 Customers → demographics
+- 🛍️ Products → pricing & attributes
+- 💳 Sales → transactions
+- 🏬 Stores → location data
 
-🔗 Connected using Primary & Foreign Keys
+- 🔗 Connected using Primary & Foreign Keys
 
 ## 🧠 Feature Engineering
 
