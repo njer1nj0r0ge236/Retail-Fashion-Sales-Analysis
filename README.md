@@ -28,7 +28,7 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 📊 Power BI- Dashboard & visualization
 
 ## 🗂️ Dataset & Data Model
-## 🧾 Dataset
+### 🧾 Dataset
 - **Source**: [Messy Retail Fashion Data)](https://www.kaggle.com/datasets/vanpatangan/retail-fashion-data)
 - **Format**: `.csv` file
 
