@@ -9,27 +9,37 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 
 ## 🎯 Objectives
 
-- ✔️ Understand overall business performance
-- ✔️ Identify top-performing products, regions, and customers
-- ✔️ Analyze profitability vs revenue
-- ✔️ Investigate return patterns and risks
-- ✔️ Detect seasonal trends for forecasting
+✔️ Understand overall business performance
+
+✔️ Identify top-performing products, regions, and customers
+
+✔️ Analyze profitability vs revenue
+
+✔️ Investigate return patterns and risks
+
+✔️ Detect seasonal trends for forecasting
 
 ## 🛠️ Tools & Technologies
 
-- 🗄️ SQL Server (SSMS)- Data cleaning & analysis
-- 📊 Power BI- Dashboard & visualization
-- 📑 Excel- Initial preprocessing
-- 🗂️ Dataset & Data Model
+🗄️ SQL Server (SSMS)- Data cleaning & analysis
+
+📊 Power BI- Dashboard & visualization
+
+📑 Excel- Initial preprocessing
+
+🗂️ Dataset & Data Model
 
 ### This project uses a relational database structure:
 
-- 👤 Customers → demographics
-- 🛍️ Products → pricing & attributes
-- 💳 Sales → transactions
-- 🏬 Stores → location data
+👤 Customers → demographics
 
-  🔗 Connected using Primary & Foreign Keys
+🛍️ Products → pricing & attributes
+
+💳 Sales → transactions
+
+🏬 Stores → location data
+
+🔗 Connected using Primary & Foreign Keys
 
 ## 🧠 Feature Engineering
 
@@ -48,8 +58,11 @@ Replaced missing values (Discount → 0, Email → "Unknown")
 Standardized categories (??? → Unknown)
 
 Ensured correct data types (IDs, prices, dates)
+
 Maintained referential integrity (added "Unknown" customer)
+
 Verified no duplicates in primary keys
+
 Performed outlier detection → no unrealistic values found
 
 💡 Result: Clean, analysis-ready dataset
@@ -96,27 +109,41 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 ## 📊 Analysis Performed
 
 🔹 Revenue (total, category, region, yearly)
+
 🔹 Customer insights (top customers, behavior)
+
 🔹 Product profitability (revenue vs cost)
+
 🔹 Returns analysis (risk & patterns)
+
 🔹 Channel performance (online vs physical)
+
 🔹 Seasonal trends & forecasting
 
 ## 🔍 Key Insights
 
 📈 Revenue is stable (~12.3M) with peak seasons (May–July)
+
 👜 Accessories generate the most revenue but also highest returns (~10%)
+
 🏬 Physical stores outperform online channels
+
 👥 High-value customers show repeat purchase behavior
+
 🌍 Revenue is evenly distributed across regions
+
 🔁 Return rate (~10%) indicates revenue leakage
 
 ## 🚀 Business Recommendations
 
 ✔️ Align inventory & marketing with peak months
+
 ✔️ Improve product quality & descriptions
+
 ✔️ Optimize online shopping experience
+
 ✔️ Introduce loyalty programs for top customers
+
 ✔️ Reduce returns in high-risk categories
 
 ## 📊 Dashboard Preview
@@ -124,9 +151,13 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 💥 Key Takeaways
 
 ✔️ Built a relational data model
+
 ✔️ Performed end-to-end data cleaning
+
 ✔️ Engineered business KPIs
+
 ✔️ Delivered actionable insights
+
 ✔️ Designed a decision-driven dashboard
 
 ## 📁 Project Structure
