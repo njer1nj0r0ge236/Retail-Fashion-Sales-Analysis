@@ -15,10 +15,10 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 - ✔️ Detect seasonal trends for forecasting
 
 ## 🛠️ Tools & Technologies
-- Tool	Purpose
-- 🗄️ SQL Server (SSMS)	Data cleaning & analysis
-- 📊 Power BI	Dashboard & visualization
-- 📑 Excel	Initial preprocessing
+
+- 🗄️ SQL Server (SSMS)- Data cleaning & analysis
+- 📊 Power BI- Dashboard & visualization
+- 📑 Excel- Initial preprocessing
 - 🗂️ Dataset & Data Model
 
 ### This project uses a relational database structure:
@@ -28,7 +28,7 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 - 💳 Sales → transactions
 - 🏬 Stores → location data
 
-- 🔗 Connected using Primary & Foreign Keys
+  🔗 Connected using Primary & Foreign Keys
 
 ## 🧠 Feature Engineering
 
