@@ -1,5 +1,6 @@
 # 🛍️ Retail Fashion Sales Analysis & BI Dashboard
 <p align="center"> <img src="https://img.shields.io/badge/SQL-Analysis-blue?style=for-the-badge&logo=microsoftsqlserver"/> <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi"/> <img src="https://img.shields.io/badge/Data-Cleaning-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/> </p>
+
 ## 📌 Overview
 
 This project analyzes retail fashion sales data to uncover insights into revenue performance, customer behavior, product profitability, and seasonal trends.
@@ -43,7 +44,9 @@ Revenue = Quantity * ListPrice * (1 - Discount)
 ## 🧹 Data Cleaning
 ### ✔️ Key Steps
 Replaced missing values (Discount → 0, Email → "Unknown")
+
 Standardized categories (??? → Unknown)
+
 Ensured correct data types (IDs, prices, dates)
 Maintained referential integrity (added "Unknown" customer)
 Verified no duplicates in primary keys
