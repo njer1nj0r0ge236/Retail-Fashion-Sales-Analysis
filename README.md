@@ -30,7 +30,7 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 ## 🗂️ Dataset & Data Model
 ### 🧾 Dataset
 - **Source**: [Messy Retail Fashion Data](https://www.kaggle.com/datasets/vanpatangan/retail-fashion-data)
-- **Format**: `.csv` file
+- **Format**: `.csv` files
 
 ### This project uses a relational database structure:
 
