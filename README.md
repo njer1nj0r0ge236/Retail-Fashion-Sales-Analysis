@@ -1,13 +1,12 @@
-# Retail-Fashion-Sales-Analysis
-🛍️ Retail Fashion Sales Analysis & BI Dashboard
+# 🛍️ Retail Fashion Sales Analysis & BI Dashboard
 <p align="center"> <img src="https://img.shields.io/badge/SQL-Analysis-blue?style=for-the-badge&logo=microsoftsqlserver"/> <img src="https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=for-the-badge&logo=powerbi"/> <img src="https://img.shields.io/badge/Data-Cleaning-green?style=for-the-badge"/> <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/> </p>
-📌 Overview
+## 📌 Overview
 
 This project analyzes retail fashion sales data to uncover insights into revenue performance, customer behavior, product profitability, and seasonal trends.
 
 The goal was to transform raw, messy data into a business-ready dataset and deliver actionable insights through SQL and Power BI.
 
-🎯 Objectives
+## 🎯 Objectives
 
 ✔️ Understand overall business performance
 ✔️ Identify top-performing products, regions, and customers
@@ -15,14 +14,14 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 ✔️ Investigate return patterns and risks
 ✔️ Detect seasonal trends for forecasting
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 Tool	Purpose
 🗄️ SQL Server (SSMS)	Data cleaning & analysis
 📊 Power BI	Dashboard & visualization
 📑 Excel	Initial preprocessing
 🗂️ Dataset & Data Model
 
-This project uses a relational database structure:
+### This project uses a relational database structure:
 
 👤 Customers → demographics
 🛍️ Products → pricing & attributes
@@ -31,7 +30,7 @@ This project uses a relational database structure:
 
 🔗 Connected using Primary & Foreign Keys
 
-🧠 Feature Engineering
+## 🧠 Feature Engineering
 
 💰 Revenue Calculation
 
@@ -41,8 +40,8 @@ Revenue = Quantity * ListPrice * (1 - Discount)
 
 👉 Converts raw transactional data into business value (money)
 
-🧹 Data Cleaning
-✔️ Key Steps
+## 🧹 Data Cleaning
+### ✔️ Key Steps
 Replaced missing values (Discount → 0, Email → "Unknown")
 Standardized categories (??? → Unknown)
 Ensured correct data types (IDs, prices, dates)
@@ -52,7 +51,7 @@ Performed outlier detection → no unrealistic values found
 
 💡 Result: Clean, analysis-ready dataset
 
-🧩 SQL View (Master Dataset)
+### 🧩 SQL View (Master Dataset)
 ```bash
 CREATE VIEW Sales_Analysis AS
 SELECT 
@@ -91,7 +90,7 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 
 💥 One clean dataset → ready for analysis & Power BI
 
-📊 Analysis Performed
+## 📊 Analysis Performed
 
 🔹 Revenue (total, category, region, yearly)
 🔹 Customer insights (top customers, behavior)
@@ -100,7 +99,7 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 🔹 Channel performance (online vs physical)
 🔹 Seasonal trends & forecasting
 
-🔍 Key Insights
+## 🔍 Key Insights
 
 📈 Revenue is stable (~12.3M) with peak seasons (May–July)
 👜 Accessories generate the most revenue but also highest returns (~10%)
@@ -109,7 +108,7 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 🌍 Revenue is evenly distributed across regions
 🔁 Return rate (~10%) indicates revenue leakage
 
-🚀 Business Recommendations
+## 🚀 Business Recommendations
 
 ✔️ Align inventory & marketing with peak months
 ✔️ Improve product quality & descriptions
@@ -117,7 +116,7 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 ✔️ Introduce loyalty programs for top customers
 ✔️ Reduce returns in high-risk categories
 
-📊 Dashboard Preview
+## 📊 Dashboard Preview
 <p align="center"> <img src="images/dashboard.png" width="85%"/> </p>
 💥 Key Takeaways
 
@@ -127,7 +126,8 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 ✔️ Delivered actionable insights
 ✔️ Designed a decision-driven dashboard
 
-📁 Project Structure
+## 📁 Project Structure
+```bash
 Retail-Fashion-Analysis/
 │
 ├── data/
@@ -144,7 +144,9 @@ Retail-Fashion-Analysis/
 │   └── dashboard.png
 │
 └── README.md
-🧠 Final Note
+```
+
+## 🧠 Final Note
 
 This project demonstrates how raw data can be transformed into meaningful business insights through data modeling, SQL analysis, and visualization — enabling better decision-making.
 
