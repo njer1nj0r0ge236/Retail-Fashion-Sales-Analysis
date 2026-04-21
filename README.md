@@ -21,13 +21,16 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 
 ## 🛠️ Tools & Technologies
 
+📑 Excel- Initial preprocessing & cleaning
+
 🗄️ SQL Server (SSMS)- Data cleaning & analysis
 
 📊 Power BI- Dashboard & visualization
 
-📑 Excel- Initial preprocessing
-
-🗂️ Dataset & Data Model
+## 🗂️ Dataset & Data Model
+## 🧾 Dataset
+- **Source**: [Messy Retail Fashion Data)](https://www.kaggle.com/datasets/vanpatangan/retail-fashion-data)
+- **Format**: `.csv` file
 
 ### This project uses a relational database structure:
 
@@ -40,16 +43,6 @@ The goal was to transform raw, messy data into a business-ready dataset and deli
 🏬 Stores → location data
 
 🔗 Connected using Primary & Foreign Keys
-
-## 🧠 Feature Engineering
-
-💰 Revenue Calculation
-
-```bash
-Revenue = Quantity * ListPrice * (1 - Discount)
-```
-
-👉 Converts raw transactional data into business value (money)
 
 ## 🧹 Data Cleaning
 ### ✔️ Key Steps
@@ -65,7 +58,19 @@ Verified no duplicates in primary keys
 
 Performed outlier detection → no unrealistic values found
 
+Saved Clean CSV- Saved each dataset as UTF-8 CSV
+
 💡 Result: Clean, analysis-ready dataset
+
+## 🧠 Feature Engineering
+
+💰 Revenue Calculation
+
+```bash
+Revenue = Quantity * ListPrice * (1 - Discount)
+```
+
+👉 Converts raw transactional data into business value (money)
 
 ### 🧩 SQL View (Master Dataset)
 ```bash
