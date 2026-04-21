@@ -146,9 +146,12 @@ JOIN Stores st ON s.StoreID = st.StoreID;
 
 ✔️ Reduce returns in high-risk categories
 
-## [📊 Dashboard Preview](https://drive.google.com/file/d/1uKb6UVDgzBIYTKkExlXrxEMJAuOujR7A/view?usp=sharing)
+## 📊 Dashboard Preview
 <p align="center"> <img src="Screenshot 2026-04-20 042923.png" width="85%"/> </p>
-💥 Key Takeaways
+
+Also uploaded as RetailFashion1.pbix
+
+## 💥 Key Takeaways
 
 ✔️ Built a relational data model
 
